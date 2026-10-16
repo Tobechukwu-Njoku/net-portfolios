@@ -1,0 +1,713 @@
+{
+  "categories": [
+    {
+      "id": "featured",
+      "title": "Featured",
+      "tagline": "My personal favourites that I have deemed to have excelled in",
+      "layout": "featured",
+      "photos": [
+        {
+          "src": "https://picsum.photos/seed/alex-own-2/1200/1800",
+          "w": 1200,
+          "h": 1800,
+          "alt": "Placeholder photo",
+          "placeholder": true
+        },
+        {
+          "src": "https://picsum.photos/seed/alex-feat-a/1200/800",
+          "w": 1200,
+          "h": 800,
+          "alt": "Placeholder photo",
+          "placeholder": true
+        },
+        {
+          "src": "https://picsum.photos/seed/alex-feat-b/800/1100",
+          "w": 800,
+          "h": 1100,
+          "alt": "Placeholder photo",
+          "placeholder": true
+        },
+        {
+          "src": "https://picsum.photos/seed/alex-feat-c/1000/1000",
+          "w": 1000,
+          "h": 1000,
+          "alt": "Placeholder photo",
+          "placeholder": true
+        },
+        {
+          "src": "https://picsum.photos/seed/alex-feat-d/800/1200",
+          "w": 800,
+          "h": 1200,
+          "alt": "Placeholder photo",
+          "placeholder": true
+        },
+        {
+          "src": "https://picsum.photos/seed/alex-feat-e/900/1200",
+          "w": 900,
+          "h": 1200,
+          "alt": "Placeholder photo",
+          "placeholder": true
+        },
+        {
+          "src": "https://picsum.photos/seed/alex-feat-f/1200/800",
+          "w": 1200,
+          "h": 800,
+          "alt": "Placeholder photo",
+          "placeholder": true
+        },
+        {
+          "src": "https://picsum.photos/seed/alex-feat-g/800/1000",
+          "w": 800,
+          "h": 1000,
+          "alt": "Placeholder photo",
+          "placeholder": true
+        },
+        {
+          "src": "https://picsum.photos/seed/alex-feat-h/1200/900",
+          "w": 1200,
+          "h": 900,
+          "alt": "Placeholder photo",
+          "placeholder": true
+        },
+        {
+          "src": "https://picsum.photos/seed/alex-own-3/2400/1600",
+          "w": 2400,
+          "h": 1600,
+          "alt": "Placeholder photo",
+          "placeholder": true,
+          "full": true
+        },
+        {
+          "src": "https://picsum.photos/seed/alex-own-4/1200/1800",
+          "w": 1200,
+          "h": 1800,
+          "alt": "Placeholder photo",
+          "placeholder": true
+        },
+        {
+          "src": "https://picsum.photos/seed/alex-feat-i/1200/800",
+          "w": 1200,
+          "h": 800,
+          "alt": "Placeholder photo",
+          "placeholder": true
+        },
+        {
+          "src": "https://picsum.photos/seed/alex-feat-j/800/1200",
+          "w": 800,
+          "h": 1200,
+          "alt": "Placeholder photo",
+          "placeholder": true
+        },
+        {
+          "src": "https://picsum.photos/seed/alex-feat-k/1200/800",
+          "w": 1200,
+          "h": 800,
+          "alt": "Placeholder photo",
+          "placeholder": true
+        },
+        {
+          "src": "https://picsum.photos/seed/alex-feat-l/900/1100",
+          "w": 900,
+          "h": 1100,
+          "alt": "Placeholder photo",
+          "placeholder": true
+        },
+        {
+          "src": "https://picsum.photos/seed/alex-feat-m/1200/1000",
+          "w": 1200,
+          "h": 1000,
+          "alt": "Placeholder photo",
+          "placeholder": true
+        },
+        {
+          "src": "https://picsum.photos/seed/alex-feat-wide-1/2000/900",
+          "w": 2000,
+          "h": 900,
+          "alt": "Placeholder photo",
+          "placeholder": true,
+          "full": true
+        },
+        {
+          "src": "https://picsum.photos/seed/alex-feat-n/800/1200",
+          "w": 800,
+          "h": 1200,
+          "alt": "Placeholder photo",
+          "placeholder": true
+        },
+        {
+          "src": "https://picsum.photos/seed/alex-feat-o/1200/800",
+          "w": 1200,
+          "h": 800,
+          "alt": "Placeholder photo",
+          "placeholder": true
+        },
+        {
+          "src": "https://picsum.photos/seed/alex-feat-p/900/1200",
+          "w": 900,
+          "h": 1200,
+          "alt": "Placeholder photo",
+          "placeholder": true
+        },
+        {
+          "src": "https://picsum.photos/seed/alex-feat-q/1200/800",
+          "w": 1200,
+          "h": 800,
+          "alt": "Placeholder photo",
+          "placeholder": true
+        },
+        {
+          "src": "https://picsum.photos/seed/alex-feat-r/800/1100",
+          "w": 800,
+          "h": 1100,
+          "alt": "Placeholder photo",
+          "placeholder": true
+        }
+      ]
+    },
+    {
+      "id": "fauna",
+      "title": "Fauna",
+      "tagline": "My vision of everything in the animal kingdom",
+      "layout": "fauna",
+      "photos": [
+        {
+          "src": "https://picsum.photos/seed/alex-fauna-1/1200/800",
+          "w": 1200,
+          "h": 800,
+          "alt": "Placeholder photo",
+          "placeholder": true
+        },
+        {
+          "src": "https://picsum.photos/seed/alex-fauna-2/800/1200",
+          "w": 800,
+          "h": 1200,
+          "alt": "Placeholder photo",
+          "placeholder": true
+        },
+        {
+          "src": "https://picsum.photos/seed/alex-fauna-3/1200/800",
+          "w": 1200,
+          "h": 800,
+          "alt": "Placeholder photo",
+          "placeholder": true
+        },
+        {
+          "src": "https://picsum.photos/seed/alex-fauna-4/800/1000",
+          "w": 800,
+          "h": 1000,
+          "alt": "Placeholder photo",
+          "placeholder": true
+        },
+        {
+          "src": "https://picsum.photos/seed/alex-fauna-5/1200/900",
+          "w": 1200,
+          "h": 900,
+          "alt": "Placeholder photo",
+          "placeholder": true
+        },
+        {
+          "src": "https://picsum.photos/seed/alex-fauna-6/800/1200",
+          "w": 800,
+          "h": 1200,
+          "alt": "Placeholder photo",
+          "placeholder": true
+        },
+        {
+          "src": "https://picsum.photos/seed/alex-fauna-7/1200/800",
+          "w": 1200,
+          "h": 800,
+          "alt": "Placeholder photo",
+          "placeholder": true
+        },
+        {
+          "src": "https://picsum.photos/seed/alex-fauna-8/1000/1000",
+          "w": 1000,
+          "h": 1000,
+          "alt": "Placeholder photo",
+          "placeholder": true
+        },
+        {
+          "src": "https://picsum.photos/seed/alex-fauna-9/800/1200",
+          "w": 800,
+          "h": 1200,
+          "alt": "Placeholder photo",
+          "placeholder": true
+        },
+        {
+          "src": "https://picsum.photos/seed/alex-fauna-10/1200/800",
+          "w": 1200,
+          "h": 800,
+          "alt": "Placeholder photo",
+          "placeholder": true
+        },
+        {
+          "src": "https://picsum.photos/seed/alex-fauna-11/800/1100",
+          "w": 800,
+          "h": 1100,
+          "alt": "Placeholder photo",
+          "placeholder": true
+        },
+        {
+          "src": "https://picsum.photos/seed/alex-fauna-12/1200/800",
+          "w": 1200,
+          "h": 800,
+          "alt": "Placeholder photo",
+          "placeholder": true
+        },
+        {
+          "src": "https://picsum.photos/seed/alex-fauna-13/800/1200",
+          "w": 800,
+          "h": 1200,
+          "alt": "Placeholder photo",
+          "placeholder": true
+        },
+        {
+          "src": "https://picsum.photos/seed/alex-fauna-14/1200/900",
+          "w": 1200,
+          "h": 900,
+          "alt": "Placeholder photo",
+          "placeholder": true
+        },
+        {
+          "src": "https://picsum.photos/seed/alex-fauna-15/1200/800",
+          "w": 1200,
+          "h": 800,
+          "alt": "Placeholder photo",
+          "placeholder": true
+        },
+        {
+          "src": "https://picsum.photos/seed/alex-fauna-16/800/1000",
+          "w": 800,
+          "h": 1000,
+          "alt": "Placeholder photo",
+          "placeholder": true
+        }
+      ]
+    },
+    {
+      "id": "people",
+      "title": "People",
+      "tagline": "A book of faces the likenesses of which I have captured in my travels",
+      "layout": "people",
+      "photos": [
+        {
+          "src": "https://picsum.photos/seed/alex-own-5/1200/1500",
+          "w": 1200,
+          "h": 1500,
+          "alt": "Placeholder photo",
+          "placeholder": true
+        },
+        {
+          "src": "https://picsum.photos/seed/alex-people-1/800/1100",
+          "w": 800,
+          "h": 1100,
+          "alt": "Placeholder photo",
+          "placeholder": true
+        },
+        {
+          "src": "https://picsum.photos/seed/alex-own-6/1200/1800",
+          "w": 1200,
+          "h": 1800,
+          "alt": "Placeholder photo",
+          "placeholder": true
+        },
+        {
+          "src": "https://picsum.photos/seed/alex-people-2/1200/800",
+          "w": 1200,
+          "h": 800,
+          "alt": "Placeholder photo",
+          "placeholder": true
+        },
+        {
+          "src": "https://picsum.photos/seed/alex-people-3/800/1000",
+          "w": 800,
+          "h": 1000,
+          "alt": "Placeholder photo",
+          "placeholder": true
+        },
+        {
+          "src": "https://picsum.photos/seed/alex-people-4/800/1200",
+          "w": 800,
+          "h": 1200,
+          "alt": "Placeholder photo",
+          "placeholder": true
+        },
+        {
+          "src": "https://picsum.photos/seed/alex-people-5/1000/1000",
+          "w": 1000,
+          "h": 1000,
+          "alt": "Placeholder photo",
+          "placeholder": true
+        },
+        {
+          "src": "https://picsum.photos/seed/alex-people-6/800/1100",
+          "w": 800,
+          "h": 1100,
+          "alt": "Placeholder photo",
+          "placeholder": true
+        },
+        {
+          "src": "https://picsum.photos/seed/alex-people-7/1200/900",
+          "w": 1200,
+          "h": 900,
+          "alt": "Placeholder photo",
+          "placeholder": true
+        },
+        {
+          "src": "https://picsum.photos/seed/alex-people-8/800/1200",
+          "w": 800,
+          "h": 1200,
+          "alt": "Placeholder photo",
+          "placeholder": true
+        }
+      ]
+    },
+    {
+      "id": "landscape",
+      "title": "Landscape",
+      "tagline": "The beauty, grandeur, and intimacy of our pale blue dot",
+      "layout": "landscape",
+      "photos": [
+        {
+          "src": "https://picsum.photos/seed/alex-own-7/2400/1600",
+          "w": 2400,
+          "h": 1600,
+          "alt": "Placeholder photo",
+          "placeholder": true
+        },
+        {
+          "src": "https://picsum.photos/seed/alex-own-8/2400/1600",
+          "w": 2400,
+          "h": 1600,
+          "alt": "Placeholder photo",
+          "placeholder": true
+        },
+        {
+          "src": "https://picsum.photos/seed/alex-land-1/2000/1100",
+          "w": 2000,
+          "h": 1100,
+          "alt": "Placeholder photo",
+          "placeholder": true
+        },
+        {
+          "src": "https://picsum.photos/seed/alex-land-v1/800/1200",
+          "w": 800,
+          "h": 1200,
+          "alt": "Placeholder photo",
+          "placeholder": true
+        },
+        {
+          "src": "https://picsum.photos/seed/alex-land-v2/800/1200",
+          "w": 800,
+          "h": 1200,
+          "alt": "Placeholder photo",
+          "placeholder": true
+        },
+        {
+          "src": "https://picsum.photos/seed/alex-own-9/2400/1600",
+          "w": 2400,
+          "h": 1600,
+          "alt": "Placeholder photo",
+          "placeholder": true
+        },
+        {
+          "src": "https://picsum.photos/seed/alex-land-2/2000/1200",
+          "w": 2000,
+          "h": 1200,
+          "alt": "Placeholder photo",
+          "placeholder": true
+        },
+        {
+          "src": "https://picsum.photos/seed/alex-land-3/2000/1000",
+          "w": 2000,
+          "h": 1000,
+          "alt": "Placeholder photo",
+          "placeholder": true
+        },
+        {
+          "src": "https://picsum.photos/seed/alex-land-v3/800/1200",
+          "w": 800,
+          "h": 1200,
+          "alt": "Placeholder photo",
+          "placeholder": true
+        },
+        {
+          "src": "https://picsum.photos/seed/alex-land-v4/800/1200",
+          "w": 800,
+          "h": 1200,
+          "alt": "Placeholder photo",
+          "placeholder": true
+        },
+        {
+          "src": "https://picsum.photos/seed/alex-land-v5/800/1200",
+          "w": 800,
+          "h": 1200,
+          "alt": "Placeholder photo",
+          "placeholder": true
+        },
+        {
+          "src": "https://picsum.photos/seed/alex-land-4/2000/1300",
+          "w": 2000,
+          "h": 1300,
+          "alt": "Placeholder photo",
+          "placeholder": true
+        },
+        {
+          "src": "https://picsum.photos/seed/alex-land-5/2000/1100",
+          "w": 2000,
+          "h": 1100,
+          "alt": "Placeholder photo",
+          "placeholder": true
+        }
+      ]
+    },
+    {
+      "id": "urban",
+      "title": "Urban",
+      "tagline": "My point of view observing the manmade",
+      "layout": "urban",
+      "photos": [
+        {
+          "src": "https://picsum.photos/seed/alex-own-10/1200/1800",
+          "w": 1200,
+          "h": 1800,
+          "alt": "Placeholder photo",
+          "placeholder": true
+        },
+        {
+          "src": "https://picsum.photos/seed/alex-urban-1/1200/800",
+          "w": 1200,
+          "h": 800,
+          "alt": "Placeholder photo",
+          "placeholder": true
+        },
+        {
+          "src": "https://picsum.photos/seed/alex-urban-2/1200/900",
+          "w": 1200,
+          "h": 900,
+          "alt": "Placeholder photo",
+          "placeholder": true
+        },
+        {
+          "src": "https://picsum.photos/seed/alex-urban-3/800/1100",
+          "w": 800,
+          "h": 1100,
+          "alt": "Placeholder photo",
+          "placeholder": true
+        },
+        {
+          "src": "https://picsum.photos/seed/alex-urban-tower/900/1300",
+          "w": 900,
+          "h": 1300,
+          "alt": "Placeholder photo",
+          "placeholder": true,
+          "isolate": true,
+          "caption": "[A building of considerable stature]"
+        },
+        {
+          "src": "https://picsum.photos/seed/alex-urban-4/1200/800",
+          "w": 1200,
+          "h": 800,
+          "alt": "Placeholder photo",
+          "placeholder": true
+        },
+        {
+          "src": "https://picsum.photos/seed/alex-urban-5/800/1200",
+          "w": 800,
+          "h": 1200,
+          "alt": "Placeholder photo",
+          "placeholder": true
+        },
+        {
+          "src": "https://picsum.photos/seed/alex-urban-6/1200/800",
+          "w": 1200,
+          "h": 800,
+          "alt": "Placeholder photo",
+          "placeholder": true
+        },
+        {
+          "src": "https://picsum.photos/seed/alex-urban-7/1000/1000",
+          "w": 1000,
+          "h": 1000,
+          "alt": "Placeholder photo",
+          "placeholder": true
+        },
+        {
+          "src": "https://picsum.photos/seed/alex-urban-8/1200/800",
+          "w": 1200,
+          "h": 800,
+          "alt": "Placeholder photo",
+          "placeholder": true
+        },
+        {
+          "src": "https://picsum.photos/seed/alex-urban-landmark/1600/1000",
+          "w": 1600,
+          "h": 1000,
+          "alt": "Placeholder photo",
+          "placeholder": true,
+          "isolate": true,
+          "caption": "[A place of historical value]"
+        },
+        {
+          "src": "https://picsum.photos/seed/alex-urban-9/800/1100",
+          "w": 800,
+          "h": 1100,
+          "alt": "Placeholder photo",
+          "placeholder": true
+        },
+        {
+          "src": "https://picsum.photos/seed/alex-urban-10/1200/900",
+          "w": 1200,
+          "h": 900,
+          "alt": "Placeholder photo",
+          "placeholder": true
+        },
+        {
+          "src": "https://picsum.photos/seed/alex-urban-11/1200/800",
+          "w": 1200,
+          "h": 800,
+          "alt": "Placeholder photo",
+          "placeholder": true
+        },
+        {
+          "src": "https://picsum.photos/seed/alex-urban-12/800/1200",
+          "w": 800,
+          "h": 1200,
+          "alt": "Placeholder photo",
+          "placeholder": true
+        }
+      ]
+    },
+    {
+      "id": "film",
+      "title": "Film",
+      "tagline": "A reach into the past",
+      "layout": "film",
+      "photos": [
+        {
+          "src": "https://picsum.photos/seed/alex-own-11/1200/1800",
+          "w": 1200,
+          "h": 1800,
+          "alt": "Placeholder photo",
+          "placeholder": true
+        },
+        {
+          "src": "https://picsum.photos/seed/alex-film-1/1200/800",
+          "w": 1200,
+          "h": 800,
+          "alt": "Placeholder photo",
+          "placeholder": true
+        },
+        {
+          "src": "https://picsum.photos/seed/alex-film-2/1200/800",
+          "w": 1200,
+          "h": 800,
+          "alt": "Placeholder photo",
+          "placeholder": true
+        },
+        {
+          "src": "https://picsum.photos/seed/alex-film-3/800/1200",
+          "w": 800,
+          "h": 1200,
+          "alt": "Placeholder photo",
+          "placeholder": true
+        },
+        {
+          "src": "https://picsum.photos/seed/alex-film-4/1200/800",
+          "w": 1200,
+          "h": 800,
+          "alt": "Placeholder photo",
+          "placeholder": true
+        },
+        {
+          "src": "https://picsum.photos/seed/alex-film-5/1200/800",
+          "w": 1200,
+          "h": 800,
+          "alt": "Placeholder photo",
+          "placeholder": true
+        },
+        {
+          "src": "https://picsum.photos/seed/alex-film-hero-1/1500/1000",
+          "w": 1500,
+          "h": 1000,
+          "alt": "Placeholder photo",
+          "placeholder": true,
+          "feature": true,
+          "caption": "[Why this frame matters]"
+        },
+        {
+          "src": "https://picsum.photos/seed/alex-film-6/1200/800",
+          "w": 1200,
+          "h": 800,
+          "alt": "Placeholder photo",
+          "placeholder": true
+        },
+        {
+          "src": "https://picsum.photos/seed/alex-film-7/800/1200",
+          "w": 800,
+          "h": 1200,
+          "alt": "Placeholder photo",
+          "placeholder": true
+        },
+        {
+          "src": "https://picsum.photos/seed/alex-film-8/1200/800",
+          "w": 1200,
+          "h": 800,
+          "alt": "Placeholder photo",
+          "placeholder": true
+        },
+        {
+          "src": "https://picsum.photos/seed/alex-film-9/1200/800",
+          "w": 1200,
+          "h": 800,
+          "alt": "Placeholder photo",
+          "placeholder": true
+        },
+        {
+          "src": "https://picsum.photos/seed/alex-film-10/1200/800",
+          "w": 1200,
+          "h": 800,
+          "alt": "Placeholder photo",
+          "placeholder": true
+        },
+        {
+          "src": "https://picsum.photos/seed/alex-film-11/800/1200",
+          "w": 800,
+          "h": 1200,
+          "alt": "Placeholder photo",
+          "placeholder": true
+        },
+        {
+          "src": "https://picsum.photos/seed/alex-film-hero-2/1000/1300",
+          "w": 1000,
+          "h": 1300,
+          "alt": "Placeholder photo",
+          "placeholder": true,
+          "feature": true,
+          "caption": "[A frame that stays with you]"
+        },
+        {
+          "src": "https://picsum.photos/seed/alex-film-12/1200/800",
+          "w": 1200,
+          "h": 800,
+          "alt": "Placeholder photo",
+          "placeholder": true
+        },
+        {
+          "src": "https://picsum.photos/seed/alex-film-13/1200/800",
+          "w": 1200,
+          "h": 800,
+          "alt": "Placeholder photo",
+          "placeholder": true
+        },
+        {
+          "src": "https://picsum.photos/seed/alex-film-14/1200/800",
+          "w": 1200,
+          "h": 800,
+          "alt": "Placeholder photo",
+          "placeholder": true
+        }
+      ]
+    }
+  ]
+}

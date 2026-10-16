@@ -1,0 +1,13 @@
+# Secrets and personal content never go in the repo:
+.env
+photos/
+config/
+sites/
+_previous-site/
+
+# Build and tool leftovers
+node_modules/
+.cache/
+.claude/
+.DS_Store
+*.tar.gz

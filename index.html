@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Photography portfolio" />
+  <meta name="theme-color" content="#060608" />
+  <title>Photography Portfolio</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- Ambient "liquid" backdrop the glass refracts -->
+  <div class="ambient" aria-hidden="true">
+    <span class="blob blob--1"></span>
+    <span class="blob blob--2"></span>
+    <span class="blob blob--3"></span>
+  </div>
+
+  <!-- ═══════════ HEADER + NAV (sticky glass) ═══════════ -->
+  <header class="site-header" id="siteHeader">
+    <div class="site-header__glass glass">
+      <a href="#featured" class="brand" id="brand">
+        <span class="brand__name" id="brandName">[Your Name]</span>
+        <span class="brand__slogan" id="brandSlogan">[Your slogan]</span>
+      </a>
+
+      <nav class="nav" aria-label="Galleries">
+        <ul class="nav__list" id="navList"></ul>
+      </nav>
+
+      <button class="burger" id="burger" aria-label="Open menu" aria-expanded="false" aria-controls="mobileMenu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+
+    <!-- Mobile dropdown -->
+    <nav class="mobile-menu glass" id="mobileMenu" aria-label="Galleries" hidden>
+      <ul class="mobile-menu__list" id="mobileNavList"></ul>
+    </nav>
+  </header>
+
+  <!-- ═══════════ GALLERY ═══════════ -->
+  <main class="page" id="page" tabindex="-1"></main>
+
+  <footer class="site-footer">
+    <span>&copy; <span id="year"></span> <span id="footerName"></span></span>
+    <span>All photographs, all rights reserved</span>
+  </footer>
+
+  <!-- ═══════════ ABOUT SIDEBAR ═══════════ -->
+  <div class="scrim scrim--light" id="aboutScrim" hidden></div>
+  <aside class="about glass" id="about" aria-label="About" aria-hidden="true" inert>
+    <button class="icon-btn about__close" id="aboutClose" aria-label="Close about panel">
+      <svg viewBox="0 0 24 24" width="20" height="20"><path d="M6 6l12 12M18 6L6 18" /></svg>
+    </button>
+
+    <div class="about__body">
+      <div class="about__photo"><img id="aboutPhoto" src="" alt="Portrait of the photographer" /></div>
+      <h2 class="about__name" id="aboutName"></h2>
+      <p class="about__loc" id="aboutLoc"></p>
+      <p class="about__bio" id="aboutBio"></p>
+      <ul class="socials" id="socials"></ul>
+    </div>
+
+    <button class="btn btn--primary about__cta" id="contactOpen">Contact me</button>
+  </aside>
+
+  <!-- ═══════════ CONTACT MODAL ═══════════ -->
+  <div class="modal-overlay" id="contactOverlay" hidden>
+    <div class="modal glass" role="dialog" aria-modal="true" aria-labelledby="contactTitle">
+      <button class="icon-btn modal__close" id="contactClose" aria-label="Close contact form">
+        <svg viewBox="0 0 24 24" width="20" height="20"><path d="M6 6l12 12M18 6L6 18" /></svg>
+      </button>
+
+      <form class="contact-form" id="contactForm" novalidate>
+        <h2 class="modal__title" id="contactTitle">Say hello</h2>
+        <p class="modal__sub">Prints, commissions, collaborations, or just a kind word.</p>
+
+        <div class="field">
+          <input id="cfName" name="name" type="text" placeholder=" " autocomplete="name" required />
+          <label for="cfName">Name</label>
+        </div>
+        <div class="field">
+          <input id="cfEmail" name="email" type="email" placeholder=" " autocomplete="email" required />
+          <label for="cfEmail">Email</label>
+        </div>
+        <div class="field">
+          <textarea id="cfMessage" name="message" rows="4" placeholder=" " required></textarea>
+          <label for="cfMessage">Message</label>
+        </div>
+
+        <!-- Spam trap: hidden from people, bots fill it in -->
+        <input class="hp" type="text" name="company" tabindex="-1" autocomplete="off" aria-hidden="true" />
+
+        <p class="form-note" id="formNote" role="status"></p>
+        <button class="btn btn--primary btn--block" type="submit" id="sendBtn">Send</button>
+      </form>
+
+      <div class="contact-done" id="contactDone" hidden>
+        <h2 class="modal__title">Thank you</h2>
+        <p class="modal__sub">Your message is on its way. I'll get back to you soon.</p>
+        <button class="btn btn--ghost" id="doneClose">Close</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- ═══════════ LIGHTBOX ═══════════ -->
+  <div class="lightbox" id="lightbox" role="dialog" aria-modal="true" aria-label="Photo viewer" hidden>
+    <img class="lightbox__img" id="lbImg" src="" alt="" />
+    <p class="lightbox__count" id="lbCount"></p>
+    <button class="icon-btn glass lightbox__btn lightbox__btn--close" id="lbClose" aria-label="Close">
+      <svg viewBox="0 0 24 24" width="20" height="20"><path d="M6 6l12 12M18 6L6 18" /></svg>
+    </button>
+    <button class="icon-btn glass lightbox__btn lightbox__btn--prev" id="lbPrev" aria-label="Previous photo">
+      <svg viewBox="0 0 24 24" width="20" height="20"><path d="M15 5l-7 7 7 7" /></svg>
+    </button>
+    <button class="icon-btn glass lightbox__btn lightbox__btn--next" id="lbNext" aria-label="Next photo">
+      <svg viewBox="0 0 24 24" width="20" height="20"><path d="M9 5l7 7-7 7" /></svg>
+    </button>
+  </div>
+
+  <script src="content.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>

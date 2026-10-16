@@ -1,0 +1,19 @@
+{
+  "name": "net-portfolios",
+  "version": "1.0.0",
+  "description": "Net-Portfolios: Liquid Glass photography portfolios, one codebase, one site per folder in sites/.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "start:me": "SITE=me node server.js",
+    "start:alex": "SITE=alex node server.js",
+    "start:walter": "SITE=walter node server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "sharp": "^0.35.5"
+  }
+}

@@ -1,0 +1,14 @@
+.env
+.git
+.github
+node_modules
+.cache
+photos
+config
+sites
+_previous-site
+.claude
+.DS_Store
+unraid
+*.md
+docker-compose.yml

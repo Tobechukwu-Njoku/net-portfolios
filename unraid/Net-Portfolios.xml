@@ -1,0 +1,48 @@
+<?xml version="1.0"?>
+<Container version="2">
+  <Name>Net-Portfolios</Name>
+  <Repository>ghcr.io/tobechukwu-njoku/net-portfolios:latest</Repository>
+  <Registry>https://github.com/Tobechukwu-Njoku/net-portfolios/pkgs/container/net-portfolios</Registry>
+  <Network>bridge</Network>
+  <MyIP/>
+  <Shell>sh</Shell>
+  <Privileged>false</Privileged>
+  <Support>https://github.com/Tobechukwu-Njoku/net-portfolios/issues</Support>
+  <Project>https://github.com/Tobechukwu-Njoku/net-portfolios</Project>
+  <ReadMe>https://github.com/Tobechukwu-Njoku/net-portfolios#readme</ReadMe>
+  <Overview>Dark, glassmorphism photography portfolio with six gallery layouts, an About panel and a contact form that emails you through Gmail. Everything personal is set in the variables below, photos come from a folder, so run one container per person.</Overview>
+  <Category>Network:Web</Category>
+  <WebUI>http://[IP]:[PORT:8080]/</WebUI>
+  <TemplateURL>https://raw.githubusercontent.com/Tobechukwu-Njoku/net-portfolios/main/unraid/Net-Portfolios.xml</TemplateURL>
+  <Icon>https://raw.githubusercontent.com/feathericons/feather/main/icons/camera.svg</Icon>
+  <ExtraParams/>
+  <PostArgs/>
+  <CPUset/>
+  <DonateText/>
+  <DonateLink/>
+  <Requires/>
+  <Config Name="Port 01: Web UI" Target="8080" Default="8080" Mode="tcp" Description="Point your reverse proxy here." Type="Port" Display="always" Required="false" Mask="false">8080</Config>
+  <Config Name="Path 01: Photos" Target="/photos" Default="/mnt/user/appdata/net-portfolios/photos" Mode="rw" Description="One subfolder per gallery (featured, fauna, people, landscape, urban, film) plus about/ for the profile photo. Add --full, --isolate or --feature to a file name for layout flags." Type="Path" Display="always" Required="false" Mask="false">/mnt/user/appdata/net-portfolios/photos</Config>
+  <Config Name="Path 02: Photo Cache" Target="/app/.cache" Default="/mnt/user/appdata/net-portfolios/cache" Mode="rw" Description="Resized photos, kept across updates." Type="Path" Display="advanced" Required="false" Mask="false">/mnt/user/appdata/net-portfolios/cache</Config>
+  <Config Name="Path 03: Config" Target="/config" Default="/mnt/user/appdata/net-portfolios/config" Mode="ro" Description="Optional: a content.js here replaces all the settings below (for captions and custom photo order)." Type="Path" Display="advanced" Required="false" Mask="false">/mnt/user/appdata/net-portfolios/config</Config>
+  <Config Name="Var 01: Name" Target="SITE_NAME" Default="" Mode="" Description="Shown in the header, the About panel and the page title." Type="Variable" Display="always" Required="false" Mask="false"></Config>
+  <Config Name="Var 02: Slogan" Target="SITE_SLOGAN" Default="" Mode="" Description="Short line under the name. Leave empty to hide." Type="Variable" Display="always" Required="false" Mask="false"></Config>
+  <Config Name="Var 03: Bio" Target="ABOUT_BIO" Default="" Mode="" Description="Two or three sentences for the About panel." Type="Variable" Display="always" Required="false" Mask="false"></Config>
+  <Config Name="Var 04: City" Target="ABOUT_CITY" Default="" Mode="" Description="Shown as 'City, Country' in the About panel." Type="Variable" Display="always" Required="false" Mask="false"></Config>
+  <Config Name="Var 05: Country" Target="ABOUT_COUNTRY" Default="" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false"></Config>
+  <Config Name="Var 06: Profile Photo" Target="ABOUT_PHOTO" Default="" Mode="" Description="Path inside the photos folder, e.g. about/me.jpg. Empty = first image in photos/about/." Type="Variable" Display="advanced" Required="false" Mask="false"></Config>
+  <Config Name="Var 07: Instagram" Target="SOCIAL_INSTAGRAM" Default="" Mode="" Description="Full URL. Empty = hidden." Type="Variable" Display="always" Required="false" Mask="false"></Config>
+  <Config Name="Var 08: X" Target="SOCIAL_X" Default="" Mode="" Description="Full URL." Type="Variable" Display="advanced" Required="false" Mask="false"></Config>
+  <Config Name="Var 09: Facebook" Target="SOCIAL_FACEBOOK" Default="" Mode="" Description="Full URL." Type="Variable" Display="advanced" Required="false" Mask="false"></Config>
+  <Config Name="Var 10: LinkedIn" Target="SOCIAL_LINKEDIN" Default="" Mode="" Description="Full URL." Type="Variable" Display="advanced" Required="false" Mask="false"></Config>
+  <Config Name="Var 11: Behance" Target="SOCIAL_BEHANCE" Default="" Mode="" Description="Full URL." Type="Variable" Display="advanced" Required="false" Mask="false"></Config>
+  <Config Name="Var 12: Flickr" Target="SOCIAL_FLICKR" Default="" Mode="" Description="Full URL." Type="Variable" Display="advanced" Required="false" Mask="false"></Config>
+  <Config Name="Var 13: YouTube" Target="SOCIAL_YOUTUBE" Default="" Mode="" Description="Full URL." Type="Variable" Display="advanced" Required="false" Mask="false"></Config>
+  <Config Name="Var 14: Public Email" Target="SOCIAL_EMAIL" Default="" Mode="" Description="Address shown as an email icon. Empty = hidden." Type="Variable" Display="advanced" Required="false" Mask="false"></Config>
+  <Config Name="Var 15: Galleries" Target="GALLERIES" Default="featured,fauna,people,landscape,urban,film" Mode="" Description="Which galleries to show, in order. Each one reads the folder of the same name inside Photos." Type="Variable" Display="always" Required="false" Mask="false">featured,fauna,people,landscape,urban,film</Config>
+  <Config Name="Var 16: Show Placeholders" Target="SHOW_PLACEHOLDERS" Default="true" Mode="" Description="true = empty galleries show stand-in photos; false = hide empty galleries." Type="Variable" Display="always" Required="false" Mask="false">true</Config>
+  <Config Name="Var 17: Contact Recipient" Target="CONTACT_TO" Default="" Mode="" Description="Where contact-form messages are sent." Type="Variable" Display="always" Required="false" Mask="false"></Config>
+  <Config Name="Var 18: Gmail Address" Target="GMAIL_USER" Default="" Mode="" Description="Gmail account that sends contact-form messages." Type="Variable" Display="always" Required="false" Mask="false"></Config>
+  <Config Name="Var 19: Gmail App Password" Target="GMAIL_APP_PASSWORD" Default="" Mode="" Description="16-character app password (Google Account &gt; Security &gt; App passwords)." Type="Variable" Display="always" Required="false" Mask="true"></Config>
+  <Config Name="Var 20: Behind A Reverse Proxy" Target="TRUST_PROXY" Default="true" Mode="" Description="true when Traefik, Pangolin, nginx or similar is in front." Type="Variable" Display="advanced" Required="false" Mask="false">true</Config>
+</Container>

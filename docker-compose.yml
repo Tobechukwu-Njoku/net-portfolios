@@ -1,0 +1,43 @@
+# Two portfolios from the same image: one container per person (copy a block
+# for more). Each gets its own photos folder and its own settings. Put a reverse proxy
+# (Traefik, Pangolin, Caddy, nginx) in front for domains and HTTPS.
+x-portfolio: &portfolio
+  image: ghcr.io/tobechukwu-njoku/net-portfolios:latest
+  restart: unless-stopped
+  environment: &common
+    TRUST_PROXY: "true"
+    GMAIL_USER: ${GMAIL_USER:-}
+    GMAIL_APP_PASSWORD: ${GMAIL_APP_PASSWORD:-}
+
+services:
+  portfolio-ada:
+    <<: *portfolio
+    container_name: portfolio-ada
+    ports: ["8080:8080"]
+    volumes:
+      - ./ada/photos:/photos
+      - ./ada/cache:/app/.cache
+    environment:
+      <<: *common
+      SITE_NAME: Ada Lovelace
+      SITE_SLOGAN: Light, patience and a little luck
+      ABOUT_CITY: London
+      ABOUT_COUNTRY: England
+      ABOUT_BIO: Street and landscape photographer.
+      SOCIAL_INSTAGRAM: https://instagram.com/your-handle
+      CONTACT_TO: ada@example.com
+
+  portfolio-grace:
+    <<: *portfolio
+    container_name: portfolio-grace
+    ports: ["8081:8080"]
+    volumes:
+      - ./grace/photos:/photos
+      - ./grace/cache:/app/.cache
+    environment:
+      <<: *common
+      SITE_NAME: Grace Hopper
+      ABOUT_CITY: New York
+      ABOUT_COUNTRY: USA
+      GALLERIES: featured,people,urban
+      CONTACT_TO: grace@example.com
