@@ -113,6 +113,8 @@ Photos in it are listed per gallery, for example
 `{ src: 'images/urban/tower.jpg', w: 3, h: 4, alt: 'Clock tower', isolate: true, caption: 'Big Ben, 2024' }`
 (`images/` maps to `/photos`; `w` and `h` only need the right proportions).
 
+A `favicon.png` in the same `/config` folder replaces the built-in camera icon used for the browser tab and phone home-screen icon (a square PNG, 180 px or larger).
+
 ## Behind a reverse proxy
 
 Point the proxy at the container's port 8080 and set `TRUST_PROXY=true`. The site needs no

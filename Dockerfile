@@ -11,6 +11,7 @@ COPY package.json package-lock.json ./
 RUN npm ci --omit=dev
 
 COPY index.html style.css app.js server.js mailer.js defaults.json ./
+COPY assets/icon.png ./assets/icon.png
 
 # Photos and an optional content.js override are mounted here. No VOLUME on
 # purpose: an unmounted path should not silently become an anonymous volume.

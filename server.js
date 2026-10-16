@@ -152,6 +152,18 @@ function handleContent(res) {
   res.end(`window.PORTFOLIO = ${JSON.stringify(buildContent(), null, 2)};\n`);
 }
 
+// favicon.png in CONFIG_DIR replaces the built-in icon. Browsers that ask for
+// /favicon.ico get the PNG too, which they all accept.
+function handleFavicon(res) {
+  const custom = path.join(CONFIG_DIR, 'favicon.png');
+  const file = fs.existsSync(custom) ? custom : path.join(ROOT, 'assets', 'icon.png');
+  fs.readFile(file, (err, content) => {
+    if (err) return notFound(res);
+    res.writeHead(200, { 'Content-Type': 'image/png', 'Cache-Control': 'public, max-age=86400' });
+    res.end(content);
+  });
+}
+
 /* ═══════════ Contact form → email ═══════════ */
 const EMAIL_RE = /^[^\s@<>()",;]+@[^\s@<>()",;]+\.[^\s@<>()",;]+$/;
 const hits = new Map();                     // ip → timestamps, simple rate limit
@@ -308,6 +320,7 @@ async function handler(req, res) {
 
     if (urlPath === '/api/contact') return handleContact(req, res);
     if (urlPath === '/content.js') return handleContent(res);
+    if (urlPath === '/favicon.png' || urlPath === '/favicon.ico') return handleFavicon(res);
     if (urlPath.startsWith('/images/')) return handleImages(req, urlObj, urlPath, res);
     if (SHARED_FILES[urlPath]) return sendFile(res, path.join(ROOT, SHARED_FILES[urlPath]));
     notFound(res);
