@@ -14,7 +14,7 @@
   <Category>Network:Web</Category>
   <WebUI>http://[IP]:[PORT:8080]/</WebUI>
   <TemplateURL>https://raw.githubusercontent.com/Tobechukwu-Njoku/net-portfolios/main/unraid/Net-Portfolios.xml</TemplateURL>
-  <Icon>https://raw.githubusercontent.com/feathericons/feather/main/icons/camera.svg</Icon>
+  <Icon>https://raw.githubusercontent.com/Tobechukwu-Njoku/net-portfolios/main/assets/icon.png</Icon>
   <ExtraParams/>
   <PostArgs/>
   <CPUset/>
