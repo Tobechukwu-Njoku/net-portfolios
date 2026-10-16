@@ -2,7 +2,8 @@ FROM node:22-alpine
 
 LABEL org.opencontainers.image.title="net-portfolios" \
       org.opencontainers.image.description="Dark, glassmorphism photography portfolio. One site per container, configured entirely by environment variables." \
-      org.opencontainers.image.source="https://github.com/Tobechukwu-Njoku/net-portfolios"
+      org.opencontainers.image.source="https://github.com/Tobechukwu-Njoku/net-portfolios" \
+      org.opencontainers.image.licenses="MIT"
 
 WORKDIR /app
 

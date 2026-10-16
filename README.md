@@ -140,3 +140,7 @@ content from the settings, serves and resizes photos, and handles the contact fo
 `mailer.js` sends mail with no extra packages; `defaults.json` holds each gallery's default
 title, tagline and placeholder photos. Pushes to `main` build and publish the image with
 GitHub Actions (`.github/workflows/docker.yml`).
+
+## Licence
+
+[MIT](LICENSE)
